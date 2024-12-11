@@ -5,7 +5,7 @@
 --- MOD_DESCRIPTION: Adds each collab face card to every suit
 --- BADGE_COLOUR: c20000
 --- DISPLAY_NAME:  Collabs reimagined
---- VERSION: 1.0.0
+--- VERSION: 1.0.1
 --- DEPENDENCIES: [Steamodded>=1.0.0~ALPHA-0812d]
 
 ----------------------------------------------
