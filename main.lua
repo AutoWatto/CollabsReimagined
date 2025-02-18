@@ -2,7 +2,7 @@
 --- MOD_NAME: Collabs reimagined
 --- MOD_ID: mod_custom_collabs_deck
 --- MOD_AUTHOR: [Auto Watto]
---- MOD_DESCRIPTION: Adds each collab face card to every suit
+--- MOD_DESCRIPTION: Adds each collab face card to every suit (in progress)
 --- BADGE_COLOUR: c20000
 --- DISPLAY_NAME:  Collabs reimagined
 --- VERSION: 1.0.1
@@ -204,6 +204,53 @@ SMODS.Atlas{
     atlas_table = 'ASSET_ATLAS'
 }
 
+SMODS.Atlas{
+    key = "collab_CYPhearts_1",
+    path = "collab_CYPhearts_reimagined_1.png",
+    px = 71,
+    py = 95,
+    atlas_table = 'ASSET_ATLAS'
+}
+
+SMODS.Atlas{
+    key = "collab_CYPhearts_2",
+    path = "collab_CYPhearts_reimagined_2.png",
+    px = 71,
+    py = 95,
+    atlas_table = 'ASSET_ATLAS'
+}
+
+SMODS.Atlas{
+    key = "collab_CYPclubs_1",
+    path = "collab_CYPclubs_reimagined_1.png",
+    px = 71,
+    py = 95,
+    atlas_table = 'ASSET_ATLAS'
+}
+
+SMODS.Atlas{
+    key = "collab_CYPclubs_2",
+    path = "collab_CYPclubs_reimagined_2.png",
+    px = 71,
+    py = 95,
+    atlas_table = 'ASSET_ATLAS'
+}
+
+SMODS.Atlas{
+    key = "collab_CYPdiamonds_1",
+    path = "collab_CYPdiamonds_reimagined_1.png",
+    px = 71,
+    py = 95,
+    atlas_table = 'ASSET_ATLAS'
+}
+
+SMODS.Atlas{
+    key = "collab_CYPdiamonds_2",
+    path = "collab_CYPdiamonds_reimagined_2.png",
+    px = 71,
+    py = 95,
+    atlas_table = 'ASSET_ATLAS'
+}
 
 SMODS.DeckSkin{
 	key = "collab_AUdiamonds",
@@ -212,7 +259,7 @@ SMODS.DeckSkin{
 	lc_atlas = "collab_AUdiamonds_1",
 	hc_atlas = "collab_AUdiamonds_2",
 	loc_txt = {
-		["en-us"] = "Among Us"
+		["en-us"] = "Among Us (RI)"
 	},
 	posStyle = "collab"
 }
@@ -224,7 +271,7 @@ SMODS.DeckSkin{
 	lc_atlas = "collab_AUspades_1",
 	hc_atlas = "collab_AUspades_2",
 	loc_txt = {
-		["en-us"] = "Among Us"
+		["en-us"] = "Among Us (RI)"
 	},
 	posStyle = "collab"
 }
@@ -236,7 +283,7 @@ SMODS.DeckSkin{
 	lc_atlas = "collab_AUclubs_1",
 	hc_atlas = "collab_AUclubs_2",
 	loc_txt = {
-		["en-us"] = "Among Us"
+		["en-us"] = "Among Us (RI)"
 	},
 	posStyle = "collab"
 }
@@ -248,7 +295,7 @@ SMODS.DeckSkin{
 	lc_atlas = "collab_VSdiamonds_1",
 	hc_atlas = "collab_VSdiamonds_2",
 	loc_txt = {
-		["en-us"] = "Vampire Survivors"
+		["en-us"] = "Vampire Survivors (RI)"
 	},
 	posStyle = "collab"
 }
@@ -260,7 +307,7 @@ SMODS.DeckSkin{
 	lc_atlas = "collab_VSspades_1",
 	hc_atlas = "collab_VSspades_2",
 	loc_txt = {
-		["en-us"] = "Vampire Survivors"
+		["en-us"] = "Vampire Survivors (RI)"
 	},
 	posStyle = "collab"
 }
@@ -272,7 +319,7 @@ SMODS.DeckSkin{
 	lc_atlas = "collab_VShearts_1",
 	hc_atlas = "collab_VShearts_2",
 	loc_txt = {
-		["en-us"] = "Vampire Survivors"
+		["en-us"] = "Vampire Survivors (RI)"
 	},
 	posStyle = "collab"
 }
@@ -284,7 +331,7 @@ SMODS.DeckSkin{
 	lc_atlas = "collab_DTDSpades_1",
 	hc_atlas = "collab_DTDSpades_2",
 	loc_txt = {
-		["en-us"] = "Dave the Diver"
+		["en-us"] = "Dave the Diver (RI)"
 	},
 	posStyle = "collab"
 }
@@ -296,7 +343,7 @@ SMODS.DeckSkin{
 	lc_atlas = "collab_DTDclubs_1",
 	hc_atlas = "collab_DTDclubs_2",
 	loc_txt = {
-		["en-us"] = "Dave the Diver"
+		["en-us"] = "Dave the Diver (RI)"
 	},
 	posStyle = "collab"
 }
@@ -308,7 +355,7 @@ SMODS.DeckSkin{
 	lc_atlas = "collab_DTDhearts_1",
 	hc_atlas = "collab_DTDhearts_2",
 	loc_txt = {
-		["en-us"] = "Dave the Diver"
+		["en-us"] = "Dave the Diver (RI)"
 	},
 	posStyle = "collab"
 }
@@ -320,7 +367,7 @@ SMODS.DeckSkin{
 	lc_atlas = "collab_TWclubs_1",
 	hc_atlas = "collab_TWclubs_2",
 	loc_txt = {
-		["en-us"] = "The Witcher"
+		["en-us"] = "The Witcher (RI)"
 	},
 	posStyle = "collab"
 }
@@ -332,7 +379,7 @@ SMODS.DeckSkin{
 	lc_atlas = "collab_TWdiamonds_1",
 	hc_atlas = "collab_TWdiamonds_2",
 	loc_txt = {
-		["en-us"] = "The Witcher"
+		["en-us"] = "The Witcher (RI)"
 	},
 	posStyle = "collab"
 }
@@ -344,7 +391,43 @@ SMODS.DeckSkin{
 	lc_atlas = "collab_TWhearts_1",
 	hc_atlas = "collab_TWhearts_2",
 	loc_txt = {
-		["en-us"] = "The Witcher"
+		["en-us"] = "The Witcher (RI)"
+	},
+	posStyle = "collab"
+}
+
+SMODS.DeckSkin{
+	key = "collab_CYPhearts",
+	suit = "Hearts",
+	ranks =  {"Jack", "Queen", "King"},
+	lc_atlas = "collab_CYPhearts_1",
+	hc_atlas = "collab_CYPhearts_2",
+	loc_txt = {
+		["en-us"] = "Cyberpunk 2077 (RI)"
+	},
+	posStyle = "collab"
+}
+
+SMODS.DeckSkin{
+	key = "collab_CYPclubs",
+	suit = "Clubs",
+	ranks =  {"Jack", "Queen", "King"},
+	lc_atlas = "collab_CYPclubs_1",
+	hc_atlas = "collab_CYPclubs_2",
+	loc_txt = {
+		["en-us"] = "Cyberpunk 2077 (RI)"
+	},
+	posStyle = "collab"
+}
+
+SMODS.DeckSkin{
+	key = "collab_CYPdiamonds",
+	suit = "Diamonds",
+	ranks =  {"Jack", "Queen", "King"},
+	lc_atlas = "collab_CYPdiamonds_1",
+	hc_atlas = "collab_CYPdiamonds_2",
+	loc_txt = {
+		["en-us"] = "Cyberpunk 2077 (RI)"
 	},
 	posStyle = "collab"
 }
