@@ -328,8 +328,8 @@ SMODS.DeckSkin{
 	key = "collab_DTDspades",
 	suit = "Spades",
 	ranks =  {"Jack", "Queen", "King"},
-	lc_atlas = "collab_DTDSpades_1",
-	hc_atlas = "collab_DTDSpades_2",
+	lc_atlas = "collab_DTDspades_1",
+	hc_atlas = "collab_DTDspades_2",
 	loc_txt = {
 		["en-us"] = "Dave the Diver (RI)"
 	},
