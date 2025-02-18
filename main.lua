@@ -1,7 +1,7 @@
 --- STEAMODDED HEADER
 --- MOD_NAME: Collabs reimagined
 --- MOD_ID: mod_custom_collabs_deck
---- MOD_AUTHOR: [Auto Watto]
+--- MOD_AUTHOR: [Auto Watto and RS_Mind]
 --- MOD_DESCRIPTION: Adds each collab face card to every suit (in progress)
 --- BADGE_COLOUR: c20000
 --- DISPLAY_NAME:  Collabs reimagined
