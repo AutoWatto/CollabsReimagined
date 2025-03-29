@@ -11,6 +11,12 @@
 ----------------------------------------------
 ------------MOD CODE -------------------------
 
+SMODS.Atlas{
+    key = "modicon",
+    path = "CollabsReimaginedicon.png",
+    px = 34,
+    py = 34,
+}
 
 SMODS.Atlas{
     key = "collab_AUdiamonds_1",
